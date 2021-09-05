@@ -1,0 +1,239 @@
+#banner {
+  height: 100vh;
+  display: flex;
+  background-color: skyblue;
+  margin: 0px 5px;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header {
+  background-color: grey;
+  text-align: center;
+  padding: 2px;
+  margin: 0px 5px;
+  position: fixed;
+  width: 99%;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+#header a {
+  text-decoration: none;
+  color: white;
+  padding: 2px 25px;
+  border-radius: 5px;
+}
+
+#header :hover{
+    background-color: white;
+    color: black;
+}
+
+#footer {
+  background-color: rosybrown;
+  text-align: center;
+  padding: 10px;
+  margin: 5px;
+  height: 80px;
+  
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
+    padding: 2px 10px;
+}
+
+#footer a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+#circle-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+h2 {
+  text-align: center;
+}
+
+.circle {
+  width: 15%;
+  height: 180px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team1 {
+  background: url("../res/ironmandownload.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#team2 {
+  background: url(../res/doc.Strangedownload.jpg) no-repeat center center;
+}
+#team3 {
+  background: url(../res/hulkdownload.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#team4 {
+  background: url(../res/natashaAv.download.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section2-item-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#main-content {
+  width: 60%;
+  height: 500px;
+  background-color: gray;
+  padding: 5px;
+  overflow: hidden;
+}
+
+#section2-item-artical-container {
+  width: 40%;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-left: 5px;
+}
+
+.artical {
+  height: 33%;
+  background-color: chocolate;
+}
+
+#project1 {
+  background: url(../res/Project1download.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#project2 {
+  background: url(../res/Project2download.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#project3 {
+  background: url(../res/Project3download.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#section2 {
+  margin: 5px;
+}
+
+#section3 {
+  background-color: whitesmoke;
+}
+
+#section3-item-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0px;
+}
+
+.rectangle {
+  width: 20%;
+  height: 180px;
+  background-color: red;
+}
+
+.box {
+  display: inline-block;
+  border-width: 2px;
+  width: 20%;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px;
+  height: 408px;
+}
+
+.box h2 {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+}
+
+.box .details {
+  overflow: hidden;
+  height: 20%;
+  margin: 10px 0px;
+}
+
+.box div {
+  display: flex;
+  justify-content: center;
+}
+
+.box img {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.box div a {
+  text-decoration: none;
+  display: inline-block;
+  width: 55%;
+  padding: 4px;
+  text-align: center;
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+}
+
+.box div a:hover {
+  border: 1px solid green;
+  background-color: blanchedalmond;
+}
+
+.box div a:visited {
+  background-color: rgb(192, 147, 147);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+body {
+  background-color: whitesmoke;
+}
