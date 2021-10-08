@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        table, tr, td, th{
+
+            border-right: 2px solid white;
+            
+            border-collapse: collapse;
+            text-align: center;
+            padding: 5px;
+
+        }
+
+        table {
+            width: 60%;
+        }
+
+        td{
+            width: 50px;
+        }
+
+        th{
+            font-size: 20px;
+            padding: 20px;
+            
+        }
+
+        th:nth-child(1) {
+            background-color: rgb(153, 255, 153);
+        }
+        th:nth-child(2) {
+            background-color: rgb(245, 218, 218);
+        }
+        th:nth-child(3) {
+            background-color: rgb(172, 187, 254);
+        }
+        th:nth-child(4) {
+            background-color: rgb(255, 175, 193);
+        }
+        
+
+        a{
+            text-decoration: none;
+            background-color: rgb(51, 51, 255);
+            color: white;
+            padding: 6px 25px;
+            border-radius: 5px;
+
+            
+            
+        }
+
+        tr:nth-child(odd) td:nth-child(1) {
+            background-color: rgb(153, 255, 153);
+        }
+        tr:nth-child(odd) td:nth-child(2) {
+            background-color: rgb(245, 218, 218);
+        }
+        tr:nth-child(odd) td:nth-child(3) {
+            background-color: rgb(172, 187, 254);
+        }
+        tr:nth-child(odd) td:nth-child(4) {
+            background-color: rgb(255, 175, 193);
+        }
+        tr:nth-child(even) td:nth-child(1) {
+            background-color: rgb(0,255,127);
+        }
+        tr:nth-child(even) td:nth-child(2) {
+            background-color: rgb(255,245,238);
+        }
+        tr:nth-child(even) td:nth-child(3) {
+            background-color: rgb(176,224,230);
+        }
+        tr:nth-child(even) td:nth-child(4) {
+            background-color: rgb(255,218,185);
+        }
+
+
+        .cross{
+            color:red;
+        }
+
+        .check{
+            color:green
+        }
+
+        
+
+    </style>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap"
+  rel="stylesheet"
+/>
+
+</head>
+<body style="font-family: 'Baloo Bhai 2', cursive;" >
+
+    <table id="table" align="center">
+        <tr>
+            <th><i class="fal fa-file-spreadsheet" style="padding-right: 5px;"></i>Basic</th>
+            <th><i class="fas fa-comment-plus" style="padding-right: 5px;"></i>Plus</th>
+            <th><i class="fab fa-telegram" style="padding-right: 5px;"></i>Deluxe</th>
+            <th><i class="fas fa-tachometer-alt-slow" style="padding-right: 5px;"></i>Pro</th>
+        </tr>
+        <tr>
+            <td>Rs. 500/-</td>
+            <td>Rs. 1500/-</td>
+            <td>Rs. 2500/-</td>
+            <td>Rs. 3500/-</td>
+        </tr>
+        <tr>
+            <td>50 Pages</td>
+            <td>75 Pages</td>
+            <td>Unlimited</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>3 users</td>
+            <td>5 users</td>
+            <td>10 users</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>10 Sites</td>
+            <td>25 Sites</td>
+            <td>100 Sites</td>
+            <td>Unlimited</td>
+        </tr>
+        <tr>
+            <td>50 MB</td>
+            <td>250 MB</td>
+            <td>1 GB</td>
+            <td>5 GB</td>
+        </tr>
+        <tr>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+        </tr>
+        <tr>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+        </tr>
+        <tr>
+            <td class="cross" style="color: red;"><i class="fas fa-times"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+        </tr>
+        <tr>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+        </tr>
+        <tr>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="cross"><i class="fas fa-times"></i></td>
+            <td class="check"><i class="fas fa-check"></i></td>
+        </tr>
+        <tr>
+            <td style="padding: 10px;"><a href="#">Sign Up</a></td>
+            <td><a href="#">Sign Up</a></td>
+            <td><a href="#">Sign Up</a></td>
+            <td><a href="#">Sign Up</a></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
