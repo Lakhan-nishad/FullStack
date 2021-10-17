@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#counter-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: linear-gradient(#ef4136, #fbb040);
+}
+
+#counter-btn-container
+{
+    display: flex;
+
+    width: 250px;
+    justify-content: space-evenly;
+    align-items: center;
+
+    margin: 40px;
+    
+}
+
+.btn
+{
+    width: 50px;
+    height: 40px;
+    background-color: #fe8dc6;
+    font-size: 25px;
+}
